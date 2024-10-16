@@ -8,3 +8,11 @@
     color: blue;
     text-decoration: underline;
 }
+
+h1,h2 {
+    text-align: center;
+}
+body {
+    background-image: url('trunk\ or\ treat\ background.jpg'); 
+
+}
