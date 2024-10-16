@@ -11,8 +11,14 @@
 
 h1,h2 {
     text-align: center;
+    color: rgb(255, 153, 0);
 }
 body {
     background-image: url('trunk\ or\ treat\ background.jpg'); 
 
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+    backdrop-filter: blur(10px); /* Optional: Add a blur effect to the background */
+    box-shadow: none; /* Optional: Remove shadow for a flatter look */
 }
