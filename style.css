@@ -1,0 +1,10 @@
+.description {
+    display: none; /* Start hidden */
+    margin-top: 10px;
+}
+
+.more-info {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
