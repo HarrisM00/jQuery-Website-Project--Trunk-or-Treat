@@ -11,3 +11,8 @@ $(document).ready(function() {
         $(this).find('.trunk-description').fadeOut();
     });
 });
+$(document).ready(function() {
+    $('.event-heading').on('click', function() {
+        $(this).next('.event-details').slideToggle();
+    });
+});

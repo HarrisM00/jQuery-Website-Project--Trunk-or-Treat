@@ -1,27 +1,37 @@
 .description {
     display: none; /* Start hidden */
     margin-top: 10px;
+    text-align: center;
 }
 
 .more-info {
     cursor: pointer;
     color: blue;
     text-decoration: underline;
+    color: rgb(255, 153, 0);
+    font-family: 'Creepster', cursive;
+    font-weight: bold;
+text-align: center;
 }
 
-h1,h2 {
+h1,h2,h3 {
     text-align: center;
     color: rgb(255, 153, 0);
+    font-family: 'Creepster', cursive;
+
 }
 p {
-    color: rgb(255, 255, 255);
+    font-family: 'Creepster', cursive;
+    font-weight: bold;
+    color: rgb(255, 153, 0);
+
 }
 body {
     background-image: url('trunk\ or\ treat\ background.jpg'); 
 
 }
 .navbar {
-    background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+    background-color: rgb(255, 153, 0); /* White with 80% opacity */
     backdrop-filter: blur(10px); /* Optional: Add a blur effect to the background */
     box-shadow: none; /* Optional: Remove shadow for a flatter look */
 }
@@ -37,6 +47,37 @@ body {
 
 .trunk-description {
     font-size: 1em;
-    color: #333;
+    color: rgb(255, 153, 0);
     margin-top: 10px;
+}
+.event {
+    margin-bottom: 20px;
+}
+
+.event-heading {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(255, 153, 0);
+    text-align: center;
+
+}
+
+.event-details {
+    padding: 10px;
+    border-left: 2px solid #ccc;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.event-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.nav-link {
+    color: rgb(255, 153, 0);
+    font-family: 'Creepster', cursive;
 }
