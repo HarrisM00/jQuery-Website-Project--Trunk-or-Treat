@@ -13,6 +13,9 @@ h1,h2 {
     text-align: center;
     color: rgb(255, 153, 0);
 }
+p {
+    color: rgb(255, 255, 255);
+}
 body {
     background-image: url('trunk\ or\ treat\ background.jpg'); 
 
@@ -21,4 +24,19 @@ body {
     background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
     backdrop-filter: blur(10px); /* Optional: Add a blur effect to the background */
     box-shadow: none; /* Optional: Remove shadow for a flatter look */
+}
+.trunk-container {
+    position: relative;
+    text-align: center;
+}
+
+.trunk-image {
+    width: 300px;
+    height: 300px;
+}
+
+.trunk-description {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
 }
